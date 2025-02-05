@@ -7,10 +7,10 @@ body {
     left: -250px; /* Adjust the width of the navbar */
     width: 250px;
     height: 100%;
-    background-color: pink;
+    background-color: rgb(209, 43, 71);
     opacity: .4;
     color: white;
-    padding: 1rem;
+    padding: 2rem;
     display: none; /* Hide the navbar initially */
     flex-direction: column;
     justify-content: center;
