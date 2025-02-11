@@ -1,7 +1,9 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-}.navbar {
+}
+
+.navbar {
     position: fixed;
     top: 0;
     left: -250px; /* Adjust the width of the navbar */
@@ -36,10 +38,12 @@ body {
 .navbar a {
     color: white;
     text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for smooth highlighting */
 }
 
 .navbar a:hover {
-    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.2); /* Highlight background */
+    color: yellow; /* Change text color */
 }
 
 .navbar-toggle {
